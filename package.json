@@ -1,0 +1,24 @@
+{
+  "name": "bsa-patterns-hw",
+  "version": "0.0.0",
+  "description": "Homework for Patterns Practises and Principles homework from Binary Studio Academy",
+  "scripts": {
+    "start-client": "cd client && npm run start",
+    "start-server": "cd server && npm run start",
+    "start": "npm run start-server && npm run start-client",
+    "build": "cd client && npm run build"
+  },
+  "author": "Dmytro Zh",
+  "license": "MIT",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": ">=16 <17",
+    "npm": ">=8 <9"
+  },
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
+}
